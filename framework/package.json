@@ -1,0 +1,17 @@
+{
+  "name": "dot-js",
+  "version": "1.0.0",
+  "description": "A minimal, dependency-free front-end framework: describe UIs with plain JavaScript.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^30.0.1"
+  }
+}
